@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/arcade-classic" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="message">Pick 2 Cards</div>
+        <div class="row">
+            <div data-number="0" id="card1" class="card"></div>
+            <div data-number="1" id="card2" class="card"></div>
+            <div data-number="2" id="card3" class="card"></div>
+        </div>
+        <div class="row">
+            <div data-number="3" id="card4" class="card"></div>
+            <div data-number="4" id="card5" class="card"></div>
+            <div data-number="5" id="card6" class="card"></div>
+        </div>
+        <div id="other">
+            <div id="text">Score: <span id="score">0</span></div>
+            <div>Failed Attempts: <span id="fail">0</span></div>
+            <button id="btn">New Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
